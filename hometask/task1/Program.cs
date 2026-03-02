@@ -1,7 +1,7 @@
 ﻿
 using U;
 
-        Cache<int>.Add(10);
+        Cache<int>.Add(7);
         Cache<int>.Add(11);
         Cache<string>.Add("Ronaldo");
         Cache<string>.Add("Messi");
