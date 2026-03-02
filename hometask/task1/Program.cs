@@ -13,8 +13,6 @@ foreach (var item in s2)
     Console.WriteLine(item);
 }
 
-Cache<int>.Remove(10);
-
 var s = Cache<int>.Get();
 
 foreach (var item in s)
