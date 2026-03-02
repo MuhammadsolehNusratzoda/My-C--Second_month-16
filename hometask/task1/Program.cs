@@ -4,6 +4,7 @@ using U;
         Cache<int>.Add(10);
         Cache<int>.Add(11);
         Cache<string>.Add("Ronaldo");
+        Cache<string>.Add("Messi");
 
         var s2 = Cache<string>.Get();
 
