@@ -4,7 +4,7 @@ namespace U;
 public static class Cache<T> 
 {
 
-   static List<T> _caches = [];
+   static List<T> _caches = new List<T>();
    public static void Add(T cache)
     {
         _caches.Add(cache);
