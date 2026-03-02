@@ -2,6 +2,7 @@
 using U;
 
         Cache<int>.Add(10);
+        Cache<int>.Add(11);
         Cache<string>.Add("Ronaldo");
 
         var s2 = Cache<string>.Get();
